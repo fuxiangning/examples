@@ -4,7 +4,7 @@
    <todo-list v-bind:todos="todosBefore" ></todo-list>
     <hr>
 
-    <h2>之前组件调用</h2>
+    <h2>之后组件调用</h2>
     <todo-list v-bind:todos="todosAfter">
       <template slot-scope="slotProps">
         <div style="background:red; border-bottom:2px solid blue;">
